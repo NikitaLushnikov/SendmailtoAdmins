@@ -1,0 +1,828 @@
+
+SQL*Plus: Release 11.2.0.4.0 Production on Thu May 5 10:17:23 2022
+
+Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+
+SQL> Connected.
+SQL> SQL> SQL> SQL> SQL> SQL> SQL> <br>
+SQL> <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SYSTIMESTAMP
+</th>
+</tr>
+<tr>
+<td>
+05-MAY-22 10.17.23.689162 AM +03:00
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+  2  <br>
+  3  <br>
+  4  <br>
+  5  <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE_NAME
+</th>
+<th scope="col">
+TOTAL_MB
+</th>
+<th scope="col">
+FREE_MB
+</th>
+<th scope="col">
+PERCENT_FREE
+</th>
+<th scope="col">
+PERCENT_USED
+</th>
+</tr>
+<tr>
+<td>
+HDI_PROD
+</td>
+<td align="right">
+65535.9688
+</td>
+<td align="right">
+10294.5625
+</td>
+<td align="right">
+     15.71
+</td>
+<td align="right">
+     84.29
+</td>
+</tr>
+<tr>
+<td>
+HDI_PROD_IDX
+</td>
+<td align="right">
+     10240
+</td>
+<td align="right">
+  6919.875
+</td>
+<td align="right">
+     67.58
+</td>
+<td align="right">
+     32.42
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+      4096
+</td>
+<td align="right">
+  3420.875
+</td>
+<td align="right">
+     83.52
+</td>
+<td align="right">
+     16.48
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+      3072
+</td>
+<td align="right">
+      2081
+</td>
+<td align="right">
+     67.74
+</td>
+<td align="right">
+     32.26
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+      8192
+</td>
+<td align="right">
+  8175.375
+</td>
+<td align="right">
+      99.8
+</td>
+<td align="right">
+	.2
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+SQL> <br>
+Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+
+SQL*Plus: Release 11.2.0.4.0 Production on Thu May 5 10:19:18 2022
+
+Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+
+SQL> Connected.
+SQL> SQL> SQL> SQL> SQL> SQL> SQL> <br>
+SQL> <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SYSTIMESTAMP
+</th>
+</tr>
+<tr>
+<td>
+05-MAY-22 10.19.18.198542 AM +03:00
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+  2  <br>
+  3  <br>
+  4  <br>
+  5  <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE_NAME
+</th>
+<th scope="col">
+TOTAL_MB
+</th>
+<th scope="col">
+FREE_MB
+</th>
+<th scope="col">
+PERCENT_FREE
+</th>
+<th scope="col">
+PERCENT_USED
+</th>
+</tr>
+<tr>
+<td>
+HDI_PROD
+</td>
+<td align="right">
+65535.9688
+</td>
+<td align="right">
+10294.5625
+</td>
+<td align="right">
+     15.71
+</td>
+<td align="right">
+     84.29
+</td>
+</tr>
+<tr>
+<td>
+HDI_PROD_IDX
+</td>
+<td align="right">
+     10240
+</td>
+<td align="right">
+  6919.875
+</td>
+<td align="right">
+     67.58
+</td>
+<td align="right">
+     32.42
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+      4096
+</td>
+<td align="right">
+  3420.875
+</td>
+<td align="right">
+     83.52
+</td>
+<td align="right">
+     16.48
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+      3072
+</td>
+<td align="right">
+      2081
+</td>
+<td align="right">
+     67.74
+</td>
+<td align="right">
+     32.26
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+      8192
+</td>
+<td align="right">
+  8175.375
+</td>
+<td align="right">
+      99.8
+</td>
+<td align="right">
+	.2
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+SQL> <br>
+Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+
+SQL*Plus: Release 11.2.0.4.0 Production on Thu May 5 10:50:53 2022
+
+Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+
+SQL> Connected.
+SQL> SQL> SQL> SQL> SQL> SQL> SQL> <br>
+SQL> <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SYSTIMESTAMP
+</th>
+</tr>
+<tr>
+<td>
+05-MAY-22 10.50.53.705377 AM +03:00
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+  2  <br>
+  3  <br>
+  4  <br>
+  5  <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE_NAME
+</th>
+<th scope="col">
+TOTAL_MB
+</th>
+<th scope="col">
+FREE_MB
+</th>
+<th scope="col">
+PERCENT_FREE
+</th>
+<th scope="col">
+PERCENT_USED
+</th>
+</tr>
+<tr>
+<td>
+HDI_PROD
+</td>
+<td align="right">
+65535.9688
+</td>
+<td align="right">
+10294.5625
+</td>
+<td align="right">
+     15.71
+</td>
+<td align="right">
+     84.29
+</td>
+</tr>
+<tr>
+<td>
+HDI_PROD_IDX
+</td>
+<td align="right">
+     10240
+</td>
+<td align="right">
+  6919.875
+</td>
+<td align="right">
+     67.58
+</td>
+<td align="right">
+     32.42
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+      4096
+</td>
+<td align="right">
+  3420.875
+</td>
+<td align="right">
+     83.52
+</td>
+<td align="right">
+     16.48
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+      3072
+</td>
+<td align="right">
+      2081
+</td>
+<td align="right">
+     67.74
+</td>
+<td align="right">
+     32.26
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+      8192
+</td>
+<td align="right">
+  8175.375
+</td>
+<td align="right">
+      99.8
+</td>
+<td align="right">
+	.2
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+SQL> <br>
+Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+
+SQL*Plus: Release 11.2.0.4.0 Production on Thu May 5 10:55:58 2022
+
+Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+
+SQL> Connected.
+SQL> SQL> SQL> SQL> SQL> SQL> SQL> <br>
+SQL> <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SYSTIMESTAMP
+</th>
+</tr>
+<tr>
+<td>
+05-MAY-22 10.55.58.163358 AM +03:00
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+  2  <br>
+  3  <br>
+  4  <br>
+  5  <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE_NAME
+</th>
+<th scope="col">
+TOTAL_MB
+</th>
+<th scope="col">
+FREE_MB
+</th>
+<th scope="col">
+PERCENT_FREE
+</th>
+<th scope="col">
+PERCENT_USED
+</th>
+</tr>
+<tr>
+<td>
+HDI_PROD
+</td>
+<td align="right">
+65535.9688
+</td>
+<td align="right">
+10294.5625
+</td>
+<td align="right">
+     15.71
+</td>
+<td align="right">
+     84.29
+</td>
+</tr>
+<tr>
+<td>
+HDI_PROD_IDX
+</td>
+<td align="right">
+     10240
+</td>
+<td align="right">
+  6919.875
+</td>
+<td align="right">
+     67.58
+</td>
+<td align="right">
+     32.42
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+      4096
+</td>
+<td align="right">
+  3420.875
+</td>
+<td align="right">
+     83.52
+</td>
+<td align="right">
+     16.48
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+      3072
+</td>
+<td align="right">
+      2081
+</td>
+<td align="right">
+     67.74
+</td>
+<td align="right">
+     32.26
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+      8192
+</td>
+<td align="right">
+  8175.375
+</td>
+<td align="right">
+      99.8
+</td>
+<td align="right">
+	.2
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+SQL> <br>
+Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+
+SQL*Plus: Release 11.2.0.4.0 Production on Thu May 5 11:47:51 2022
+
+Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+
+SQL> Connected.
+SQL> SQL> SQL> SQL> SQL> SQL> SQL> <br>
+SQL> <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SYSTIMESTAMP
+</th>
+</tr>
+<tr>
+<td>
+05-MAY-22 11.47.51.205655 AM +03:00
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+  2  <br>
+  3  <br>
+  4  <br>
+  5  <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE_NAME
+</th>
+<th scope="col">
+TOTAL_MB
+</th>
+<th scope="col">
+FREE_MB
+</th>
+<th scope="col">
+PERCENT_FREE
+</th>
+<th scope="col">
+PERCENT_USED
+</th>
+</tr>
+<tr>
+<td>
+HDI_PROD
+</td>
+<td align="right">
+65535.9688
+</td>
+<td align="right">
+10294.4375
+</td>
+<td align="right">
+     15.71
+</td>
+<td align="right">
+     84.29
+</td>
+</tr>
+<tr>
+<td>
+HDI_PROD_IDX
+</td>
+<td align="right">
+     10240
+</td>
+<td align="right">
+  6919.875
+</td>
+<td align="right">
+     67.58
+</td>
+<td align="right">
+     32.42
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+      4096
+</td>
+<td align="right">
+ 3420.8125
+</td>
+<td align="right">
+     83.52
+</td>
+<td align="right">
+     16.48
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+      3072
+</td>
+<td align="right">
+      2081
+</td>
+<td align="right">
+     67.74
+</td>
+<td align="right">
+     32.26
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+      8192
+</td>
+<td align="right">
+  8175.375
+</td>
+<td align="right">
+      99.8
+</td>
+<td align="right">
+	.2
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+SQL> <br>
+Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production
+
+SQL*Plus: Release 11.2.0.4.0 Production on Thu May 5 12:00:14 2022
+
+Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+
+SQL> Connected.
+SQL> SQL> SQL> SQL> SQL> SQL> SQL> <br>
+SQL> <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SYSTIMESTAMP
+</th>
+</tr>
+<tr>
+<td>
+05-MAY-22 12.00.14.339486 PM +03:00
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+  2  <br>
+  3  <br>
+  4  <br>
+  5  <br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE_NAME
+</th>
+<th scope="col">
+TOTAL_MB
+</th>
+<th scope="col">
+FREE_MB
+</th>
+<th scope="col">
+PERCENT_FREE
+</th>
+<th scope="col">
+PERCENT_USED
+</th>
+</tr>
+<tr>
+<td>
+HDI_PROD
+</td>
+<td align="right">
+65535.9688
+</td>
+<td align="right">
+10294.4375
+</td>
+<td align="right">
+     15.71
+</td>
+<td align="right">
+     84.29
+</td>
+</tr>
+<tr>
+<td>
+HDI_PROD_IDX
+</td>
+<td align="right">
+     10240
+</td>
+<td align="right">
+  6919.875
+</td>
+<td align="right">
+     67.58
+</td>
+<td align="right">
+     32.42
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+      4096
+</td>
+<td align="right">
+ 3420.8125
+</td>
+<td align="right">
+     83.52
+</td>
+<td align="right">
+     16.48
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+      3072
+</td>
+<td align="right">
+      2081
+</td>
+<td align="right">
+     67.74
+</td>
+<td align="right">
+     32.26
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+      8192
+</td>
+<td align="right">
+  8175.375
+</td>
+<td align="right">
+      99.8
+</td>
+<td align="right">
+	.2
+</td>
+</tr>
+</table>
+<p>
+
+SQL> <br>
+SQL> <br>
+Disconnected from Oracle Database 11g Release 11.2.0.4.0 - 64bit Production

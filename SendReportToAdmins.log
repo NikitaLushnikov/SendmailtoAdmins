@@ -1,0 +1,288 @@
+================================START BY oracle AT Mon May 2 17:36:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START python AT Mon May 2 17:36:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+=================Start Func_SendMail=================
+ORA_errors: [ ]
+no errors
+send it to ['Nlushnikov@croc.ru'] !
+ 
+===============================remove cutlogs from server========================
+================================END sh AT Mon May 2 17:36:01 MSK 2022=============================
+================================START BY oracle AT Tue May 3 10:00:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START python AT Tue May 3 10:00:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+=================Start Func_SendMail=================
+ORA_errors: [ ]
+no errors
+send it to ['Nlushnikov@croc.ru', 'ABitelev@croc.ru', 'MVaisov@croc.ru'] !
+ 
+===============================remove cutlogs from server========================
+================================END sh AT Tue May 3 10:00:01 MSK 2022=============================
+================================START BY oracle AT Wed May 4 10:00:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START python AT Wed May 4 10:00:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+=================Start Func_SendMail=================
+ORA_errors: [ ]
+no errors
+send it to ['Nlushnikov@croc.ru', 'ABitelev@croc.ru', 'MVaisov@croc.ru'] !
+ 
+===============================remove cutlogs from server========================
+================================END sh AT Wed May 4 10:00:01 MSK 2022=============================
+test
+ok
+================================START BY oracle AT Thu May 5 10:00:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 10:00:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 10:00:01 MSK 2022================================
+===============================START python AT Thu May 5 10:00:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+20
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+Traceback (most recent call last):
+  File "/home/oracle/scripts/python/SendReportToAdmins_2022_05_02_HDIv7.py", line 182, in <module>
+    add_text_to_mail=Func_add_text_to_mail1('/home/oracle/scripts/python/tablespace.html')
+  File "/home/oracle/scripts/python/SendReportToAdmins_2022_05_02_HDIv7.py", line 29, in Func_add_text_to_mail1
+    with open(FilePath, 'r') as file_output:
+IOError: [Errno 2] No such file or directory: '/home/oracle/scripts/python/tablespace.html'
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 10:00:01 MSK 2022==========================
+test
+ok
+================================START BY oracle AT Thu May 5 10:08:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 10:08:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 10:08:01 MSK 2022================================
+===============================START python AT Thu May 5 10:08:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+14
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+Traceback (most recent call last):
+  File "/home/oracle/scripts/python/SendReportToAdmins_2022_05_02_HDIv7.py", line 182, in <module>
+    add_text_to_mail=Func_add_text_to_mail1('/home/oracle/scripts/python/tablespace.html')
+  File "/home/oracle/scripts/python/SendReportToAdmins_2022_05_02_HDIv7.py", line 29, in Func_add_text_to_mail1
+    with open(FilePath, 'r') as file_output:
+IOError: [Errno 2] No such file or directory: '/home/oracle/scripts/python/tablespace.html'
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 10:08:01 MSK 2022==========================
+test
+ok
+================================START BY oracle AT Thu May 5 10:15:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 10:15:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 10:15:01 MSK 2022================================
+===============================START python AT Thu May 5 10:15:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+14
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+=================Func_add_text_to_mail END=================
+=================Start Func_SendMail=================
+ORA_errors: [ 14 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+]
+errors
+send it to ['Nlushnikov@croc.ru'] !
+ 14 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 10:15:01 MSK 2022==========================
+test
+ok
+================================START BY oracle AT Thu May 5 10:21:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 10:21:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 10:21:01 MSK 2022================================
+===============================START python AT Thu May 5 10:21:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+14
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+=================Func_add_text_to_mail END=================
+=================Start Func_SendMail=================
+ORA_errors: [ 14 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+]
+errors
+send it to ['Nlushnikov@croc.ru'] !
+ 14 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 10:21:01 MSK 2022==========================
+================================START BY oracle AT Thu May 5 10:57:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 10:57:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 10:57:01 MSK 2022================================
+===============================START python AT Thu May 5 10:57:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+414
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+=================Func_add_text_to_mail END=================
+=================Start Func_SendMail=================
+ORA_errors: [ 414 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+]
+errors
+send it to ['Nlushnikov@croc.ru'] !
+ 414 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 10:57:01 MSK 2022==========================
+================================START BY oracle AT Thu May 5 11:49:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 11:49:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 11:49:01 MSK 2022================================
+===============================START python AT Thu May 5 11:49:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+408
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+=================Func_add_text_to_mail END=================
+=================Start Func_SendMail=================
+ORA_errors: [ 408 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+]
+errors
+send it to ['Nlushnikov@croc.ru'] !
+ 408 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 11:49:01 MSK 2022==========================
+================================START BY oracle AT Thu May 5 12:02:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 12:02:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 12:02:01 MSK 2022================================
+===============================START python AT Thu May 5 12:02:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+408
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+=================Func_add_text_to_mail END=================
+=================Start Func_SendMail=================
+ORA_errors: [ 408 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+]
+errors
+send it to ['Nlushnikov@croc.ru'] !
+ 408 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 12:02:01 MSK 2022==========================
+================================START BY oracle AT Thu May 5 12:05:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 12:05:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 12:05:01 MSK 2022================================
+===============================START python AT Thu May 5 12:05:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+402
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+=================Func_chek_for_ORA_errors=================
+=================Func_add_text_to_mail END=================
+=================Start Func_SendMail=================
+ORA_errors: [ 402 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+]
+errors
+send it to ['Nlushnikov@croc.ru'] !
+ 402 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+
+===============================remove cutlogs from server======================
+================================END sh AT Thu May 5 12:05:01 MSK 2022==========================
+================================START BY oracle AT Thu May 5 12:12:01 MSK 2022=============================
+start tail
+end tail
+start df -h
+end df
+===============================START SQL AT Thu May 5 12:12:01 MSK 2022=============================
+===============================END SQL AT Thu May 5 12:12:01 MSK 2022================================
+===============================START python AT Thu May 5 12:12:01 MSK 2022=============================
+=================Func_chek_for_ORA_errors=================
+/home/oracle/scripts/python/alert_OL11DIAP_cut.log
+395
+opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+698
+ORA-01722: неверное число
+
+=================Func_chek_for_ORA_errors=================
+=================Func_add_text_to_mail END=================
+=================Start Func_SendMail=================
+ORA_errors: [ 395 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+698 ORA-01722: неверное число
+
+]
+errors
+send it to ['Nlushnikov@croc.ru'] !
+ 395 opiodr aborting process unknown ospid (17044) as a result of ORA-30687
+
+698 ORA-01722: неверное число
+
+
+===============================remove cutlogs from server======================
+rm: cannot remove вЂ/home/oracle/sql.logвЂ™: No such file or directory
+rm: cannot remove вЂ/home/oracle/tablespace.htmlвЂ™: No such file or directory
+================================END sh AT Thu May 5 12:12:01 MSK 2022==========================

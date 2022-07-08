@@ -1,0 +1,146 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=WINDOWS-1251">
+<meta name="generator" content="SQL*Plus 11.2.0">
+<style type='text/css'> body {font:10pt Arial,Helvetica,sans-serif; color:black; background:White;} p {font:10pt Arial,Helvetica,sans-serif; color:black; background:White;} table,tr,td {font:10pt Arial,Helvetica,sans-serif; color:Black; background:#f7f7e7; padding:0px 0px 0px 0px; margin:0px 0px 0px 0px;} th {font:bold 10pt Arial,Helvetica,sans-serif; color:#336699; background:#cccc99; padding:0px 0px 0px 0px;} h1 {font:16pt Arial,Helvetica,Geneva,sans-serif; color:#336699; background-color:White; border-bottom:1px solid #cccc99; margin-top:0pt; margin-bottom:0pt; padding:0px 0px 0px 0px;-
+} h2 {font:bold 10pt Arial,Helvetica,Geneva,sans-serif; color:#336699; background-color:White; margin-top:4pt; margin-bottom:0pt;} a {font:9pt Arial,Helvetica,sans-serif; color:#663300; background:#ffffff; margin-top:0pt; margin-bottom:0pt; vertical-align:top;}</style><title>SQL*Plus Report</title>
+</head>
+<body>
+SQL>  select systimestamp from dual;
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+SYSTIMESTAMP
+</th>
+</tr>
+<tr>
+<td>
+05-MAY-22 12.00.14.339486 PM +03:00
+</td>
+</tr>
+</table>
+<p>
+
+SQL>  select a.TABLESPACE_NAME tablespace_name, b.BYTES/1024/1024 total_MB, a.BYTES/1024/1024 free_MB,round(a.BYTES*100/b.BYTES,2) percent_free,round((b.BYTES-a.BYTES)*100/b.BYTES,2) percent_used
+<br>
+  2   from  (select TABLESPACE_NAME, sum(BYTES) BYTES from dba_free_space group by TABLESPACE_NAME) a,
+<br>
+  3         (select TABLESPACE_NAME, sum(BYTES) BYTES from dba_data_files group by TABLESPACE_NAME) b
+<br>
+  4   where a.TABLESPACE_NAME=b.TABLESPACE_NAME
+<br>
+  5   order by a.TABLESPACE_NAME;
+<br>
+<p>
+<table border='1' width='90%' align='center' summary='Script output'>
+<tr>
+<th scope="col">
+TABLESPACE_NAME
+</th>
+<th scope="col">
+TOTAL_MB
+</th>
+<th scope="col">
+FREE_MB
+</th>
+<th scope="col">
+PERCENT_FREE
+</th>
+<th scope="col">
+PERCENT_USED
+</th>
+</tr>
+<tr>
+<td>
+HDI_PROD
+</td>
+<td align="right">
+65535.9688
+</td>
+<td align="right">
+10294.4375
+</td>
+<td align="right">
+     15.71
+</td>
+<td align="right">
+     84.29
+</td>
+</tr>
+<tr>
+<td>
+HDI_PROD_IDX
+</td>
+<td align="right">
+     10240
+</td>
+<td align="right">
+  6919.875
+</td>
+<td align="right">
+     67.58
+</td>
+<td align="right">
+     32.42
+</td>
+</tr>
+<tr>
+<td>
+SYSAUX
+</td>
+<td align="right">
+      4096
+</td>
+<td align="right">
+ 3420.8125
+</td>
+<td align="right">
+     83.52
+</td>
+<td align="right">
+     16.48
+</td>
+</tr>
+<tr>
+<td>
+SYSTEM
+</td>
+<td align="right">
+      3072
+</td>
+<td align="right">
+      2081
+</td>
+<td align="right">
+     67.74
+</td>
+<td align="right">
+     32.26
+</td>
+</tr>
+<tr>
+<td>
+UNDOTBS1
+</td>
+<td align="right">
+      8192
+</td>
+<td align="right">
+  8175.375
+</td>
+<td align="right">
+      99.8
+</td>
+<td align="right">
+        .2
+</td>
+</tr>
+</table>
+<p>
+
+SQL>  SPOOL OFF
+<br>
+</body>
+</html>
